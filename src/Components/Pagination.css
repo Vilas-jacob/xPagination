@@ -1,0 +1,42 @@
+.Pagination{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 15px;
+}
+
+.button {
+    background-color: #45bf92;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-width: 80px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page {
+   background-color: #45bf92; 
+   padding-top: 8px;
+    padding-bottom: 8px;
+    min-width: 40px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.button:disabled{
+    background-color: #6ba492;
+    color: lightgray;
+    cursor: none;
+}
+
