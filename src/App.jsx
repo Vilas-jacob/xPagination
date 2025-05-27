@@ -18,6 +18,7 @@ function App() {
       setEmpData(responseData);
       //console.log(responseData);
     }catch(error){
+      alert("failed to fetch data");
       console.error("Error fetching data: "+error.message);
     }
   }

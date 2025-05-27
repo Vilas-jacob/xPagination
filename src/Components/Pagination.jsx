@@ -39,9 +39,9 @@ function Pagination({totalRows, rowsPerPage,currentPage, setCurrentPage}) {
                 <button key={index} onClick={()=>setCurrentPage(page)}>{page}</button>
             )
         })} */}
-        <button className='button' onClick={handlePrevious} disabled={isFirstPage}>Previous</button>
+        <button className='button' onClick={handlePrevious} >Previous</button>
         <button className='page'>{currentPage}</button>
-        <button className='button' onClick={handleNext} disabled={isLastPage}>Next</button>
+        <button className='button' onClick={handleNext} >Next</button>
     </div>
   )
 }
